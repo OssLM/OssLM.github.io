@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Bonita</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body onclick="playAudio()">
+  <header>
+    <h1 class="Titulo">Hola mi vida, espero que te guste esto, porfavor lee la carta.
+      ahi hayaras algo muy bonito mi amor, te amo con todo mi ser mi cielo, me encantas demasiado.
+    </h1>
+  </header>
+    <main>
+      <div class="container-letter">
+        <div class="cover"></div>
+        <span class="heart">♥</span>
+        <p class="paper" id="mainMessage">
+          Hola mi princesa hermosa, venia a recordarte que te amo demasiado.
+          Solamente venia a decirte. ¿QUIERES SER MI SAN VALENTIN MI DULCE PRINCESA?
+        </p>
+        <div class="letter"></div>
+      </div>
+      <div class="options">
+        <button id="open">Abrir</button>
+        <button id="close">Cerrar</butto>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <audio id="Musica1" loop>
+      <source src="Audio/Follow You - Bring Me The Horizon.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+      function playAudio() {
+        document.getElementById("Musica1").play();
+      }
+    </script>
+  </body>
+  </html>
