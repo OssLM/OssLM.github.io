@@ -1,42 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Bonita</title>
-    <link rel="stylesheet" href="styles.css">
-    
+  <meta charset="UTF-8">
+  <title>Carta de San Valentín</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
-<body onclick="playAudio()">
-  <header>
-    <h1 class="Titulo">Hola mi vida, espero que te guste esto, porfavor lee la carta.
-      ahi hayaras algo muy bonito mi amor, te amo con todo mi ser mi cielo, me encantas demasiado.
-    </h1>
-  </header>
-    <main>
-      <div class="container-letter">
-        <div class="cover"></div>
-        <span class="heart">♥</span>
-        <p class="paper" id="mainMessage">
-          Hola mi princesa hermosa, venia a recordarte que te amo demasiado.
-          Solamente venia a decirte. ¿QUIERES SER MI SAN VALENTIN MI DULCE PRINCESA?
-        </p>
-        <div class="letter"></div>
-      </div>
-      <div class="options">
-        <button id="open">Abrir</button>
-        <button id="close">Cerrar</butto>
-      </div>
-    </main>
-    <script src="script.js"></script>
-    <audio id="Musica1" loop>
-      <source src="Audio/Follow You - Bring Me The Horizon.mp3" type="audio/mpeg">
-    </audio>
+<body>
 
-    <script>
-      function playAudio() {
-        document.getElementById("Musica1").play();
-      }
-    </script>
-  </body>
-  </html>
+<div class="valentines-day">
+  <div class="envelope"></div>
+  <div class="heart"></div>
+  <div class="text"> PARA: <br> MAYA CAMILA :3 </div>
+  <div class="front"></div>
+</div>
+
+<div id="card">
+  <div class="side one"></div>
+  <div class="side two">
+    <h2>Para mi hermosa princesa.</h2>
+    <p>Querida princesa... </p>
+    <p>Se que ya estas dormida mi amor pero queria decirte que feliz san valentin, aunque en estos momentos estemos separados por la distancia eso no implica qie mi amor y la forma que me haces sentir cambie, te amo tanto mi vida hermosa y conesta cartita queria decirte lo mucho que te amo como tambien lo mucho me que me gustas mi vida hermosa </p>
+  </div>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="./script.js"></script>
+
+</body>
+</html>
